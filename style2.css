@@ -1,0 +1,208 @@
+.main {
+    display: flex;
+    height: 600px;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+}
+
+.logo {
+    margin-left: 58px;
+    margin-right: 19px;
+    margin-top: 10px;
+}
+
+.logo a img {
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 81px;
+    width: 219px;
+}
+
+.logo-alt span {
+    font-size: 13px;
+    margin-left: 244px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 11px;
+}
+
+.search {
+    margin-left: 74px;
+    height: 70px;
+}
+
+.search input:first-child {
+    padding-left: 210px!important;
+    border-radius: 5px;
+    border: 1px solid;
+    width: 600px;
+    margin-top: 30px;
+    padding: 4px;
+    font-weight: 500;
+    height: 34px;
+}
+
+.search input:last-child {
+    height: 34px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px;
+    background: #00447a;
+    color: #fff;
+    width: 100px;
+}
+
+.search-box {
+    margin-top: 15px;
+    width: 610px;
+}
+
+.order {
+    left: 74%;
+}
+
+.dropdown {
+    width: 162px;
+    height: 147px;
+    background: #fff;
+    display: flex;
+    left: 9%;
+    top: 94%;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #b9b9b9;
+    padding: 9px;
+}
+
+.dropdown ul {
+    height: 130px;
+}
+
+.dropdown ul li {
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    padding: 5px;
+}
+
+.dropdown ul li:hover {
+    background-color: #dedddd;
+    color: #fff;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.order {
+    width: 102px;
+}
+
+.order a {
+    display: flex;
+    justify-content: flex-end;
+    color: #333;
+    text-decoration: none;
+}
+
+.order i {
+    transform: rotate( 90deg);
+    margin-right: 13px;
+}
+
+.search-box .search-list {
+    width: 500px;
+    height: 230px;
+}
+
+.search-box .search-list ul.list li {
+    height: 62px;
+    width: 600px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.search-box .search-list ul.list li:hover {
+    background-color: #dedddd;
+    color: #fff;
+    height: 62px;
+    border-radius: 5px;
+}
+
+.search-box .search-list ul.list li:hover a span {
+    color: #fff!important;
+}
+
+.search-box .search-list ul.list li a {
+    text-decoration: none;
+    border-bottom: 1px solid #aaa7a7;
+}
+
+.search-box .search-list ul.list li a:first-child {
+    font-weight: 500;
+}
+
+.search-box .search-list ul.list li a span:last-child {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.search-box .search-list span.showmuse {
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.pagination {
+    height: 37px;
+}
+
+.pagination-list {
+    width: 553px;
+    margin-top: 50px;
+}
+
+.page-item {
+    border-radius: 5px;
+    margin-right: 5px;
+    width: 30px;
+}
+
+.page-link {
+    border: 1px solid!important;
+    border-radius: 5px;
+    margin-left: 0!important;
+    color: #333!important;
+    height: 35px;
+    padding: 4px 9px!important;
+    width: 28px;
+}
+
+.page-item:hover {
+    border-color: #09408e!important;
+    background-color: #09408e!important;
+    color: #fff!important;
+}
+
+.page-item:hover .page-link {
+    border-color: #09408e!important;
+    background-color: #09408e!important;
+    color: #fff!important;
+    transition: none!important;
+}
+
+.pagination li.more a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 4px;
+    margin-right: 7px;
+    font-weight: 700;
+}
